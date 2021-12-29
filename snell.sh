@@ -7,7 +7,6 @@ apt-get install unzip -y
 cd ~/
 wget --no-check-certificate -O snell-server-v3.0.0-linux-amd64.zip https://github.com/surge-networks/snell/releases/download/v3.0.0rc2/snell-server-v3.0.0-linux-amd64.zip
 unzip -o snell-server-v3.0.0-linux-amd64.zip
-rm -f snell-server-v3.0.0-linux-amd64.zip
 chmod +x snell-server
 mv -f snell-server /usr/local/bin/
 if [ -f ${CONF} ]; then
