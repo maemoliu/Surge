@@ -25,7 +25,7 @@ if [ -f ${CONF} ]; then
   echo "listen = 0.0.0.0:13254" >>${CONF}
   echo "psk = ${PSK}" >>${CONF}
   echo "obfs = http" >>${CONF}
-  echo "obfs-host = www.bing.com," >>${CONF}
+  echo "obfs-host = www.bing.com" >>${CONF}
 fi
 if [ -f ${SYSTEMD} ]; then
   echo "Found existing service..."
